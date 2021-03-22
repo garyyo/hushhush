@@ -24,5 +24,7 @@ test cases:
 - stretch goals
   - @hush-hush after 1 s 2min
   - @hush-hush delete any text goes here
+  - @hush-hush message @usertag messagetext
+    - pings a user and instructs them to click reaction (a check mark). upon this the messagetext is revealed (through edit?) to everyone for the default amount of time, or until the same user reacts with an x or unreacts the checkmark
 
 can bot react to own message with controls, and detect when a user also reacts to that message as a way to control it?
